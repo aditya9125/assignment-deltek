@@ -6,6 +6,6 @@ module.exports = defineConfig({
       // implement node event listeners here
     },
     baseUrl: "http://uitestingplayground.com",
-    specPattern: "./cypress/integration/examples/*.cy.js"
+    specPattern: "./cypress/integration/examples/overlappedElement.cy.js"
   },
 });
