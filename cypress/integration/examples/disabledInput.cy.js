@@ -7,9 +7,9 @@ describe('Overlapping Element Test', () => {
       cy.get('button#enableButton')
       .click()
 
-      cy.wait(5000)
+      //cy.wait(5000)
 
-      cy.get('input#inputField')
+      cy.get('input#inputField', {timeout: 5500})
       .should('be.enabled')
       .type(textValue)
 
